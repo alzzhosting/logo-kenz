@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monospace;
+  
+}
+
+html, body {
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.buton {
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 1s; /* Animasi mulai setelah 1 detik */
+}
+
+marquee {
+  background-color: transparent;
+  color: rgb(255,255,255);
+  font-size: 35px;
+  margin: 30px;
+}
+
+.myinfo div {
+      color: white;
+      font-size: 12px;
+      border: solid 1px white;
+      padding: 0px 8px;
+      line-height: 30px;
+      margin: 3px;
+      text-align: center;
+      border-radius: 15px;
+    }
+    
+.myinfo {
+      margin: 1rem auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+    }
+    
+.logo {
+            width: 300px;
+            height: 150px;
+            border-radius: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .logo img {
+            width: 80px;
+            height: 80px;
+            border-radius: 70%;
+        }
+        
+header img {
+      width: 130px;
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
+header {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -0rem;
+    }
+    
+.title, i {
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      margin: 2px;
+    }
+
+.title {
+  color: white;
+  font-size: 30px;
+  font-family: Monospace;
+  opacity: .9;
+}
+
+a {
+  padding: 10px;
+  font-size: 18px;
+  font-family: Monospace;
+  margin: 20px;
+  background-color: transparent;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(191,191,191);
+  border: solid 1px white;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+span {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
